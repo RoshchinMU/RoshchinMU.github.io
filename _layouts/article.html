@@ -1,17 +1,10 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ page.title }}</h1>
-  {% if page.subtitle %}
-  <h2>{{ page.subtitle }}</h2>
-  {% endif %}
-</header>
-
+{% include header.html %}
 <main>
-  {{ content }}
+{{ content }}
 </main>
+{% include footer.html %}
 
-<footer>
-  <p>&copy; Московский клуб программистов.</p>
-</footer>
+

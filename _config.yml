@@ -5,5 +5,5 @@ permalink: pretty
 highlighter: rouge
 markdown: kramdown
 
-sass:
-  style: :compressed
+# sass:
+#   style: :compressed
