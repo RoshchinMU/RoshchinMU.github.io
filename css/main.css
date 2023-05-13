@@ -3,14 +3,14 @@ body {
   font-size: 12px;
   margin: 0px;
   padding: 0px;
-  background-color: #1F2833;
+  background-color: #0d1117;
   color: rgb(219, 219, 219);
 }
 
 header {
   font-size: 12px;
   height: 15px;
-  background-color: #0B0C10;
+  background-color: #0d1117;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,16 +19,16 @@ header {
 footer {
   font-size: 8px;
   height: 10px;
-  background-color: #0B0C10;
+  background-color: #0d1117;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 a {
-  color: #66FCF1;
+  color: #2581f7;
 }
 
 a:visited {
-  color: #66FCF1;
+  color: #2581f7;
 } 
