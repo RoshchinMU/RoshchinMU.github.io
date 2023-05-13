@@ -7,3 +7,5 @@ markdown: kramdown
 
 # sass:
 #   style: :compressed
+
+# https://markshevchenko.pro/articles/github-pages/jekyll/

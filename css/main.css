@@ -3,23 +3,32 @@ body {
   font-size: 12px;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(41, 41, 41);
-  color: rgb(219, 29, 29);
+  background-color: #1F2833;
+  color: rgb(219, 219, 219);
 }
+
 header {
   font-size: 12px;
-  background-color: black;
-}
-footer {
-  font-weight: bold;
-  font-size: 10px;
-  background-color: black;
-  text-align: center;
   height: 15px;
+  background-color: #0B0C10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+footer {
+  font-size: 8px;
+  height: 10px;
+  background-color: #0B0C10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
-  color: white;
+  color: #66FCF1;
 }
+
 a:visited {
-  color: white;
+  color: #66FCF1;
 } 
