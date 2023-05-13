@@ -1,1 +1,6 @@
-theme: minima
+lang: ru-RU
+encoding: utf-8
+url: https://progmsk.github.io
+permalink: pretty
+highlighter: rouge
+markdown: kramdown
