@@ -19,3 +19,11 @@ footer {
   text-align: center;
   height: 15px;
 }
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+} 
