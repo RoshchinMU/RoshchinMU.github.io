@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  font-size: 12px;
-  height: 20px;
+  font-size: 16px;
+  height: 24px;
   background-color: #0d1117;
   display: flex;
   justify-content: center;
@@ -27,8 +27,12 @@ footer {
 
 a {
   color: #2581f7;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 a:visited {
   color: #2581f7;
+  margin-left: 4px;
+  margin-right: 4px;
 } 
