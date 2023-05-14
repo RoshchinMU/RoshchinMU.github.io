@@ -1,16 +1,35 @@
-lang: ru-RU
-encoding: utf-8
 url: https://roshchinmu.github.io/
-permalink: /:title.html #/blog/:title/ #categories # pretty
-# highlighter: rouge
+permalink: pretty
+# kramdown:
+#   syntax_highlighter: coderay
+#   syntax_highlighter_opts:
+#     line_numbers: table
+#     bold_every: 5
 # markdown: kramdown
-markdown: kramdown
-highlighter: rouge
-input: GFM
+# markdown: kramdown
+# kramdown: 
+#   input: GFM
+#   syntax_highlighter: rouge
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts"
+    values:
+      layout: "article"
 
 collections:
-  staff_members:
-    permalink: /:collection/:name
+  sections:
+#     permalink: /:collection/:name
 
 # sass:
 #   style: :compressed
