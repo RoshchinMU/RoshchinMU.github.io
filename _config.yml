@@ -1,7 +1,7 @@
 lang: ru-RU
 encoding: utf-8
 url: https://roshchinmu.github.io/
-permalink: categories # pretty
+permalink: /blog/:title/ #categories # pretty
 highlighter: rouge
 markdown: kramdown
 
