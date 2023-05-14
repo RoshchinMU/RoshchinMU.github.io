@@ -11,7 +11,7 @@ body {
   font-size: 12px;
   margin: 0px;
   padding: 0px;
-  background-color: #0d1117;
+  background-color: #161b22;
   color: rgb(219, 219, 219);
 }
 
@@ -25,7 +25,7 @@ img{
 header {
   font-size: 20px;
   height: 30px;
-  background-color: #161b22;
+  background-color: #0d1117;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,20 +38,20 @@ main {
 footer {
   font-size: 10px;
   height: 12px;
-  background-color: #161b22;
+  background-color: #0d1117;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 a {
-  color: #2581f7;
+  color: #1678f8;
   margin-left: 4px;
   margin-right: 4px;
 }
 
 a:visited {
-  color: #2581f7;
+  color: #1678f8;
   margin-left: 4px;
   margin-right: 4px;
 } 

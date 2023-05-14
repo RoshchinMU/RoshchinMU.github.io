@@ -7,7 +7,7 @@ markdown: kramdown
 
 collections:
   staff_members:
-    people: true
+    permalink: /:collection/:name
 
 # sass:
 #   style: :compressed
