@@ -6,7 +6,7 @@ permalink: /:title.html #/blog/:title/ #categories # pretty
 # markdown: kramdown
 markdown: kramdown
 highlighter: rouge
-    input: GFM
+input: GFM
 
 collections:
   staff_members:
