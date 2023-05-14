@@ -2,8 +2,11 @@ lang: ru-RU
 encoding: utf-8
 url: https://roshchinmu.github.io/
 permalink: /:title.html #/blog/:title/ #categories # pretty
-highlighter: rouge
+# highlighter: rouge
+# markdown: kramdown
 markdown: kramdown
+highlighter: rouge
+    input: GFM
 
 collections:
   staff_members:
