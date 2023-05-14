@@ -5,6 +5,10 @@ permalink: /:title.html #/blog/:title/ #categories # pretty
 highlighter: rouge
 markdown: kramdown
 
+collections:
+  staff_members:
+    people: true
+
 # sass:
 #   style: :compressed
 
