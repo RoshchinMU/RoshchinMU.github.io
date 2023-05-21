@@ -1,5 +1,13 @@
 url: https://roshchinmu.github.io/
 permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # kramdown:
 #   syntax_highlighter: coderay
 #   syntax_highlighter_opts:
@@ -23,9 +31,9 @@ defaults:
   -
     scope:
       path: "" 
-      type: "posts"
+      type: ""
     values:
-      layout: "article"
+      layout: "main"
 
 collections:
   sections:
