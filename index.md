@@ -15,3 +15,11 @@ CREATE TABLE nameDB.nameTABLE
 
 select * from taBLE
 ```
+
+```scala
+val a = "1"
+
+def ttt(a: String){
+    print(a)
+}
+```
