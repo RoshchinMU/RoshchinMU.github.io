@@ -54,8 +54,15 @@ nav li a {
 
 nav li:hover, nav a:hover{
   background: radial-gradient(#52104e, #1678f8);
+  border-radius: 10px;
 }
 
+
+main{
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(184, 33, 189);
+}
 
 
 footer {
@@ -71,10 +78,6 @@ footer a {
 }
 
 
-
-main{
-  background-color: rgb(184, 33, 189);
-}
 
 a {
   text-decoration: none;
