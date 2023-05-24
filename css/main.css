@@ -3,86 +3,106 @@
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;  
   font-size: 12px;
-  color: rgb(255, 254, 239);
-  background-color: #161b22;
+  color: rgb(240, 240, 240);
+  background-color: #252526;
 }
-
-body{
-  margin: 0px;
-  padding: 0px;
+/* 221621 */
+body {
+  min-height: 100vh;
   display: grid;
-  height: 100vh;
-  grid-template-rows: 30px 35px auto 17px;
+  grid-template-rows: 30px 1px auto 1px 16px;
 }
 
-
-header{
-  text-align: center;
+.grid-line {
+	border: none;
+	height: 1px;
+  border-style: solid;
+	color: #686868;
 }
-header span{
-  margin-top: 0px;
-  padding: auto;
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-header img{
-  margin-top: 5px;
-  height: 17px; 
-  width: 17px;
-}
-
-
-nav{
-  text-align: center;
-}
-
-nav li{
-  margin-top: 5px;
-  display: inline-block;
-}
-
-nav li a {
-  margin: 0px;
-  padding: 5px;
-	display: block;
-  width: 100px;
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;  
-}
-
-nav li:hover, nav a:hover{
-  background: radial-gradient(#52104e, #1678f8);
-  border-radius: 10px;
-}
-
-
-main{
-  margin: auto;
-  margin-top: 10px;
-  background-color: rgb(184, 33, 189);
-}
-
-
-footer {
-  margin-top: 1px;
-  font-size: 12px;
-  justify-content: center;
-  text-align: center;
-}
-footer a {
-  font-size: 12px;
-  text-decoration: none;
-  color: #1678f8;
-}
-
-
 
 a {
   text-decoration: none;
   color: #1678f8;
 } 
+
+
+header {
+  display: grid;
+  position: sticky;
+  grid-template-columns: 200px auto 200px;
+}
+.header-name {
+  display: flex;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.header-name a{
+  font-size: 24px;
+  color: #fff;
+}
+.header-name img{
+  padding-top: 1px;
+  padding-left: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+
+.header-nav {
+  text-align: center;
+}
+.header-nav li {
+  display: inline-block;
+  width: 110px;
+  margin: 1px;
+}
+.header-nav a{
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  height: 25px;
+  padding-top: 3px;
+} 
+.header-nav li a:hover{
+  background: radial-gradient(#52104e, #1678f8);
+  border-radius: 10px;
+}
+
+
+.header-link {
+  /* background-color: #5b7461; */
+  text-align: right;
+  padding-right: 10px;
+
+}
+.header-link a img {
+  height: 19px;
+  width: 19px;
+  padding-top: 5px;
+  padding-right: 3px;
+}
+
+
+
+main {  
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+
+footer {
+  text-align: center;
+}
+footer a {
+  font-size: 12px;
+}
+
+
+
+
+
 
 
 

@@ -27,8 +27,26 @@
 
 
   </head>
+  <noscript><div><img src="https://mc.yandex.ru/watch/93658608" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <body>
-    <noscript><div><img src="https://mc.yandex.ru/watch/93658608" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    {{ content }}
+    
+    <header>
+      {% include header-name.html %}
+      {% include header-nav.html %}
+      {% include header-link.html %}
+    </header>
+
+    <hr class="grid-line"/>
+
+    <main>
+      {{ content }}
+    </main>
+    
+    <hr class="grid-line"/>
+    
+    <footer>
+      {% include footer.html %}
+    </footer>
+    
   </body>
 </html>
