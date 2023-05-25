@@ -1,23 +1,27 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
-  font-size: 12px;
   color: rgb(240, 240, 240);
-  background-color: #252526;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 /* 221621 */
 body {
+  margin: 0px;
+  padding: 0px;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 30px 1px auto 1px 16px;
+  flex-wrap: wrap;
+  grid-template-rows: 30px 3px auto 1px 16px;
+  background-color: #252526;
 }
 
 .grid-line {
+  margin: 0px;
+  padding: 0px;
 	border: none;
 	height: 1px;
-  border-style: solid;
-	color: #686868;
+  background: #313131;
 }
 
 a {
@@ -118,15 +122,21 @@ footer a {
 /**
  * Syntax highlighting styles
  */
- .highlight {
-  padding: 5px;
-  background: #0d1117;
+.highlight{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  background: #000;
 }
-.highlighter-rouge .highlight {
-  background: #0d1117
+.highlight span {
+  background: #000;
+  
 }
+/* .highlighter-rouge .highlight {
+  background: #538add
+} */ 
 .highlight .c {
-  color: #998;
+  color: rgb(62, 138, 85);
   font-style: italic;
 }
 .highlight .err {
@@ -134,7 +144,7 @@ footer a {
   background-color: #e3d2d2;
 }
 .highlight .k {
-  font-weight: bold;
+  color: #d6642b;
 }
 .highlight .o {
   font-weight: bold;
@@ -148,8 +158,7 @@ footer a {
   font-weight: bold;
 }
 .highlight .c1 {
-  color: #998;
-  font-style: italic;
+  color: #4aa83a;
 }
 .highlight .cs {
   color: #999;
